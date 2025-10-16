@@ -34,12 +34,23 @@ Located in `.minecraft/config/pridespecial.json`, the configuration file has the
 ]
 ```
 
-## Built-in flag type
+## Built-in flag types
+
+### `pridespecial:single`
 
 Single-colored flags can be defined as well:
 ```json
 {
   "shape": "pridespecial:single",
   "color": "#008543"
+}
+```
+
+### `pridespecial:blank`
+
+Alternatively, it's possible to render nothing:
+```json
+{
+  "shape": "pridespecial:blank"
 }
 ```
